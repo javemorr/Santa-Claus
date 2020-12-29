@@ -104,11 +104,11 @@ for i in range (-300,325,100):
 #Q.1 How to reverse the direction of propogation of snowball?
 #Q.2 How to speed up the snowfall?
 
-#left feet
+#left foot
 t.goto(-85,-250)
 rect(80,20,'black')
 
-#right feet
+#right foot
 t.goto(15,-250)
 rect(80,20,'black')
 
