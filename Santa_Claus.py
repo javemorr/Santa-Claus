@@ -32,7 +32,7 @@ def triangle(length, color):
     t.end_fill()
     t.penup()
 
-#reverse the direction of the traingle from "left" to "right"
+#reverse the direction of the triangle from "left" to "right"
 def triangle_reverse(length, color):
     t.pendown()
     t.color(color)
