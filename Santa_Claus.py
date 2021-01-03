@@ -8,7 +8,8 @@ import turtle as t
 t.penup()
 t.shape('turtle')
 t.bgcolor('dodger blue')
-t.speed('fast')
+#t.speed('fast')
+t.speed(0)
 
 def rect(h, v, color):
     t.pendown()
@@ -102,7 +103,7 @@ for i in range (-300,325,100):
 #        t.end_fill()
 
 #Q.1 How to reverse the direction of propogation of snowball?
-#Q.2 How to speed up the snowfall?
+#Q.2 How to speed up the snowfall? Ans: t.speed(0), slower: 0 to 1 to 2 to 3
 
 #left foot
 t.goto(-85,-250)
